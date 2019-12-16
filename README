@@ -1,4 +1,4 @@
-#Number conversion
+# Number conversion
 
 This repo contains scripts that converts numbers written as digits to numbers written with
 Norwegian words, and conversely, from numbers written as Norwegian words to digits. The scripts
