@@ -9,23 +9,23 @@ This is work in progress. I plan to add support for dates, years etc. and refact
 so that it becomes more readable.
 
 - cardinal_numbers.py
-    Digit to string, Bokmål:
+    - Digit to string, Bokmål:
         convert_nums(21) -> "tjueén"
-    Digit to string, Nynorsk:
+    - Digit to string, Nynorsk:
         convert_nums(21, nn=True) -> "tjueein"
-    String to digits, Bokmål:
+    - String to digits, Bokmål:
         convert_nums("tjueén", reverse=True) -> 21
-    String to digits, Nynorsk:
+    - String to digits, Nynorsk:
         convert_nums("tjueein", nn=True, reverse=True) -> 21
     
 - ordinal_numers.py
-    Digit to string, Bokmål:
+    - Digit to string, Bokmål:
         convert_ords(16) -> "sekstende"
-    Digit to string, Nynorsk:
+    - Digit to string, Nynorsk:
         convert_ords(16, nn=True) -> "sekstande"
-    String to digits, Bokmål:
+    - String to digits, Bokmål:
         convert_ords("sekstende", reverse=True) -> 16
-    String to digits, Nynorsk:
+    - String to digits, Nynorsk:
         convert_ords("sekstande", nn=True, reverse=True) -> 16
     
     Examples are added at the end of each scripts
@@ -39,5 +39,5 @@ so that it becomes more readable.
 
 ## Author
 These scripts are made by Per Erik Solberg at the National Library of Norway as part of
-Språkbanken's parliamentary proceedings transcription project 
+Språkbanken's parliamentary proceedings transcription project.
 
