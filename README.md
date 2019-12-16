@@ -3,7 +3,7 @@
 ## General info
 This repo contains scripts that converts numbers written as digits to numbers written with
 Norwegian words, and conversely, from numbers written as Norwegian words to digits. The scripts
-support cardinal and ordinal numbers from 0-999999, and handles both written standards of Norwegian.
+support cardinal and ordinal numbers from 0-999999, and handle both written standards of Norwegian.
 
 This is work in progress. I plan to add support for dates, years etc. and refactor the code
 so that it becomes more readable.
@@ -39,5 +39,5 @@ so that it becomes more readable.
 
 ## Author
 These scripts are made by Per Erik Solberg at the National Library of Norway as part of
-Språkbankens parliamentary proceedings transcription project 
+Språkbanken's parliamentary proceedings transcription project 
 
